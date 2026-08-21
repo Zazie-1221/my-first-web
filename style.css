@@ -10,6 +10,34 @@ body {
     text-align: center;
 }
 
+/* 导航栏样式 */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #FF8C00;
+}
+
+
 .intro {
     color: #333;
 }
